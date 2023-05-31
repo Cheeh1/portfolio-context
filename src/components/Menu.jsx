@@ -5,10 +5,6 @@ import { ThemeContext } from '../contexts/ThemeContext'
 const Menu = () => {
 
     const { darkMode, darkToggle, modal, openModal } = useContext(ThemeContext)
-    // const modal = props.toggle
-    // const openModal = props.action
-    // const darkMode = props.darkMode
-    // const darkToggle = props.darkToggle
 
     return (
         <>

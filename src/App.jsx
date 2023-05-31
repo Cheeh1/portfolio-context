@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { ThemeContext } from './contexts/ThemeContext'
 import Navbar from './components/Navbar'
 import Header from './components/Header'
 import About from './components/About'
@@ -6,7 +7,6 @@ import Works from './components/works'
 import Articles from './components/Articles'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
-import { ThemeContext } from './contexts/ThemeContext'
 
 const App = () => {
 

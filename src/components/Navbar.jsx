@@ -1,17 +1,11 @@
-import React, { useState, useContext } from 'react'
+import React, { useContext } from 'react'
 import { moon, sun } from '../assets'
 import Menu from './Menu'
 import { ThemeContext } from '../contexts/ThemeContext'
 
 const Navbar = () => {
 
-    // const [modal, setModal] = useState(false)
-
-    // const openModal = () => {
-    //     setModal(!modal)
-    // }
-
-    const { darkMode, darkToggle, modal, openModal } = useContext(ThemeContext)
+    const { darkMode, darkToggle, openModal } = useContext(ThemeContext)
 
     return (
         <>
@@ -45,7 +39,6 @@ const Navbar = () => {
                 </div> */}
             </nav>
 
-            {/* < Menu toggle={modal} action={openModal} darkMode={darkMode} darkToggle={darkToggle} /> */}
             < Menu />
         </>
     )

@@ -1,9 +1,11 @@
-import React from 'react'
+import React, { useContext } from 'react'
+import { ThemeContext } from '../contexts/ThemeContext'
 
 const Footer = () => {
+    const { darkMode } = useContext(ThemeContext)
     return (
         <>
-            <section className='relative flex flex-col items-center gap-2 py-10 bg-grey dark:bg-gray-900'>
+            <section className={`relative flex flex-col items-center gap-2 py-10 bg-grey ${darkMode ? 'dark' : 'bg-grey'}`}>
                 <div className="flex items-center gap-5">
                     <a href="https://github.com/Cheeh1" target='_blank'><i class="fa-brands fa-github fa-xl"></i></a>
                     <a href="https://twitter.com/iamcheeh" target='_blank'><i class="fa-brands fa-twitter fa-xl"></i></a>
