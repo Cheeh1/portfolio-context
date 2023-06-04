@@ -13,8 +13,9 @@ import picture from './images/Hero-image.png'
 import crappo from './images/crappo.png'
 import tenzies from './images/tenzies.png'
 import rick from './images/rickandmorty.png'
+import spinner from './images/spinner.gif'
 
 export {
     moon, picture, crown, globe, app, link, mail, phone, pin,
-    crappo, tenzies, rick, close, tailwind, sun
+    crappo, tenzies, rick, close, tailwind, sun, spinner
 }
